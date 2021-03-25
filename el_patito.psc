@@ -2,13 +2,26 @@
 
 Algoritmo Promedio
 	
+	Escribir "el programa que acontinuaciÃ³n vas  a utilizar te calculara el promedio de los numeros que ingreses, es lo que usted desea"
+	Leer respuesta
+	si respuesta="no" Entonces
+		Escribir "En mi blog encontraras mas procesos que te serviran de ayuda y se adaptaran a tus necesidades"
+
+		si no Respuesta="si"
+		FinSi
+		
+	FinSi
+	
+	Repetir
+		
+
 	Escribir "Ingrese la cantidad de datos:"
 	Repetir
 		
 		Leer n
 		Si n<=0 Entonces
-			Escribir "El número debe ser positivo y distinto de cero."
-			Escribir "Introduzca un número válido."
+			Escribir "El nÃºmero debe ser positivo y distinto de cero."
+			Escribir "Introduzca un nÃºmero vÃ¡lido."
 		Fin Si
 		
 	Hasta Que n>0
@@ -32,5 +45,8 @@ Algoritmo Promedio
 	
 	Escribir "El promedio es: ",prom
 	
-FinAlgoritmo
+	Escribir "Â¿Desea seguir utilizando el programa?"
+	Leer Contestacion
+Hasta Que Contestacion="No"
 
+FinAlgoritmo
